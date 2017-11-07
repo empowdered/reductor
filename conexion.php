@@ -1,6 +1,6 @@
 <?php
 /**
- * @author lolkittens
+ * @author juan pablo muñoz leiva
  * @copyright 2017
  */
 $bd_ip	="CMP0047"; 
