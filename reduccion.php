@@ -1,6 +1,6 @@
 <?php
 /**
- * @author lolkittens
+ * @author juan pablo muÃ±oz leiva
  * @copyright 2017
  */
  require("conexion.php");
@@ -51,11 +51,11 @@
         $recuperar = "ALTER DATABASE ".$fila["name"]." SET RECOVERY FULL;";
    if(mssql_query($recuperar))
    {
-        echo "<br>Se recuperó la condición para " . $fila["name"];
+        echo "<br>Se recuperÃ³ la condiciÃ³n para " . $fila["name"];
    }  
    else
    {
-        echo "<br>No se recuperó la condición para " . $fila["name"];
+        echo "<br>No se recuperÃ³ la condiciÃ³n para " . $fila["name"];
    }
  }
 ob_flush();
